@@ -2,5 +2,7 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-TicTacToe.display_board
-TicTacToe.play
+game = TicTacToe.new
+
+game.display_board
+game.play
