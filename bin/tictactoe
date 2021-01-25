@@ -2,5 +2,5 @@
 require 'pry'
 require_relative '../lib/tic_tac_toe.rb'
 
-display_board
-play
+TicTacToe.display_board
+TicTacToe.play
